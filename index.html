@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Autotransportes Atah</title>
+</head>
+
+<body>
+
+  <div class="navigation">
+
+    <div class="menu_principal">
+      <a href="/index.html"> <img class="logo" src="imagenes/atah_logo.png" alt="Logo atah"></a>
+
+      <div class="menu">
+        
+        <nav id="nav-bar">
+          <input class="hamb" type="checkbox" id="menu-checkbox">
+          <label class="bambu" for="menu-checkbox" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <ul class="items-menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+        
+        <a href="billings.html" target="_blank"><button class="btn-billing"> Facturación  </button></a>
+      </div>
+
+      
+    </div>
+
+  </div>
+
+
+  <header>
+
+    <img class="hero-img" src="imagenes/bg_road_trip.png" alt="">
+    
+    <div class="head">
+
+      <div class="titulo_nav">
+
+        <div class="etiqueta-hero">
+          <h3>Viaja con nosotros</h3>
+        </div>
+
+        <div class=" titulo_principal">
+          <h1>Vive la aventura</h1>
+        </div>
+
+
+        <section class="form-section">
+
+          <form>
+
+            <div class="form-group">
+
+              <div class="label_title">
+                <div class="icon-form">
+                  <img class="icon-form-svg" src="imagenes/icons/location-dot-solid.svg" alt="">
+                </div>
+                <label for="origen">Origen:</label>
+              </div>
+
+              <select id="origen">
+                <option value="Selección">Selecciona el origen</option>
+                <option value="ciudad-a">Apizaco Centro</option>
+                <option value="ciudad-b">Huamantla Terminal</option>
+                <option value="ciudad-c">México TAPO</option>
+                <option value="ciudad-d">Puebla CAPU</option>
+                <option value="ciudad-e">Tlaxcala Terminal</option>
+              </select>
+
+            </div>
+
+            <div class="form-group">
+
+              <div class="label_title">
+                <div class="icon-form">
+                  <img class="icon-form-svg" src="imagenes/icons/location-dot-solid.svg" alt="">
+                </div>
+                <label for="origen">Destino:</label>
+              </div>
+
+              <select id="destino">
+                <option value="Selección">Selecciona un destino</option>
+                <option value="ciudad-a">Aquiles Serdán</option>
+                <option value="ciudad-b">Aquixtla</option>
+                <option value="ciudad-c">Chignahuapan Terminal</option>
+                <option value="ciudad-d">Ciénega Larga</option>
+                <option value="ciudad-e">Cuapancingo</option>
+                <option value="ciudad-f">El Poblado</option>
+                <option value="ciudad-g">Huamantla Terminal</option>
+                <option value="ciudad-h">Huauchinango</option>
+                <option value="ciudad-i">La Ceiba</option>
+                <option value="ciudad-j">La Uno</option>
+                <option value="ciudad-k">Loma Alta</option>
+                <option value="ciudad-l">México TAPO</option>
+                <option value="ciudad-m">Poza Rica</option>
+                <option value="ciudad-n">Puente de Necaxa</option>
+                <option value="ciudad-o">San Alfonso</option>
+                <option value="ciudad-p">Tejocotal</option>
+                <option value="ciudad-q">Tetela Terminal</option>
+                <option value="ciudad-r">Tlaxco</option>
+                <option value="ciudad-s">Tonalapa</option>
+                <option value="ciudad-t">Xicotepec de Juárez</option>
+                <option value="ciudad-u">Zacatlán</option>
+              </select>
+
+            </div>
+
+            <div class="form-group">
+
+              <div class="label_title">
+                <div class="icon-form">
+                  <img class="icon-form-svg" src="imagenes/icons/user-solid.svg" alt="">
+                </div>
+                <label for="origen">Pasajeros:</label>
+              </div>
+
+              <select class="passenger" id="pasajeros">
+                <option value="passenger">1</option>
+                <option value="passenger-a">2</option>
+                <option value="passenger-b">3</option>
+                <option value="passenger-c">4</option>
+                <option value="passenger-d">5</option>
+                <option value="passenger-e">6</option>
+                <option value="passenger-f">7</option>
+                <option value="passenger-g">8</option>
+                <option value="passenger-h">9</option>
+                <option value="passenger-i">10</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+
+              <div class="label_title">
+                <div class="icon-form">
+                  <img class="icon-form-svg" src="imagenes/icons/calendar-days-solid.svg" alt="">
+                </div>
+                <label for="origen">Fecha:</label>
+              </div>
+
+              <input type="date" id="fecha">
+
+            </div>
+
+            <button class="btn-search" type="submit">Buscar</button>
+
+          </form>
+
+        </section>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+
+
+  <!-- nueva sección nosotros -->
+
+  <section id="about-us" class="about-us">
+
+    <div class="header-container">
+      <div class="etiqueta">
+        <h3>Quiénes somos</h3>
+      </div>
+      <h2>Experiencia de viaje inolvidable</h2>
+
+    </div>
+
+    <div class="content-container">
+
+      <div class="image-container">
+        <img src="imagenes/bus-inside.jpg" alt="Imagen del interior de un autobus">
+      </div>
+
+      <div class="details-container">
+
+        <div class="detail">
+          <div class="icon-container">
+            <img class="icon_about_us" src="imagenes/icons/experience.svg" alt="icon_1">
+          </div>
+          <h4>Experiencia</h4>
+          <p>Tenemos más de 10 años de experiencia en la industria</p>
+        </div>
+
+        <div class="detail">
+          <div class="icon-container">
+            <img class="icon_about_us" src="imagenes/icons/teams.svg" alt="icon_2">
+          </div>
+          <h4>Equipo</h4>
+          <p>Contamos con un equipo altamente calificado</p>
+        </div>
+
+        <div class="detail">
+          <div class="icon-container">
+            <img class="icon_about_us" src="imagenes/icons/solutions.svg" alt="icon_3">
+          </div>
+          <h4>Soluciones</h4>
+          <p>Ofrecemos soluciones personalizadas para nuestros clientes</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- finaliza nueva sección nosotros -->
+
+
+  <section id="services" class="services">
+    <div class="etiqueta">
+      <h3>Nuestros servicios</h3>
+    </div>
+    <h2>Destinos increíbles y servicios de calidad</h2>
+
+
+    </div>
+    <div class="cards_new">
+
+      <div class="card_new">
+        <img src="imagenes/icons/icon_service_1.svg" alt="Servicio 1">
+        <h3>Viajes especiales</h3>
+        <p>Ofrecemos viajes regulares a destinos populares, así como servicios de transporte privado para grupos
+          y eventos especiales.</p>
+      </div>
+
+      <div class="card_new">
+        <img src="imagenes/icons/icon_service_2.svg" alt="Servicio 2">
+        <h3>La mejor opción</h3>
+        <p>Nuestros autobuses están equipados con comodidades modernas, como Wi-Fi gratuito y enchufes
+          eléctricos.
+        </p>
+      </div>
+
+      <div class="card_new">
+        <img src="imagenes/icons/icon_service_3.svg" alt="Servicio 3">
+        <h3>Servicio de calidad</h3>
+        <p>Nuestro servicio al cliente está disponible las 24 horas del día, los 7 días de la semana, para
+          ayudarte con cualquier pregunta o inquietud.
+        </p>
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+  <!-- inicia sección destinos favoritos -->
+
+  <section id="favs" class="favorites">
+
+    <section class="gallery">
+
+      <h2>Destinos favoritos</h2>
+      <h3>Descubre los destinos favoritos de nuestros clientes</h3>
+
+      <div class="grid">
+        <div class="main-image">
+          <img src="imagenes/fotos/cdmx.jpg" alt="Imagen principal">
+          <h4 class="card-title">Ciudad de México</h4>
+        </div>
+
+        <div class="item">
+          <img src="imagenes/fotos/Puebla_2.jpg" alt="Imagen 1">
+          <h4 class="card-title">Puebla</h4>
+        </div>
+        <div class="item">
+          <img src="imagenes/fotos/tlaxcala_2.jpg" alt="Imagen 2">
+          <h4 class="card-title">Tlaxcala</h4>
+        </div>
+        <div class="item">
+          <img src="imagenes/fotos/Veracruz.jpg" alt="Imagen 3">
+          <h4 class="card-title">Veracruz</h4>
+        </div>
+      </div>
+
+    </section>
+
+  </section>
+
+
+  <!-- termina sección destinos favoritos -->
+
+
+  <!-- inicia sección reseñas de clientes -->
+
+  <section class="reviews">
+    <h2>Lo que los viajeros dicen de nosotros</h2>
+
+    <div class="review-cards">
+
+      <div class="review-card">
+        <div class="review-text">"Me encantó el servicio. Definitivamente volvería a viajar aquí."</div>
+        <div class="review-author"> - Ana López <img class="review-avatar" src="imagenes/profile_pictures/avatar_1.jpg" alt="Avatar de Ana López"></div>
+      </div>
+
+      <div class="review-card">
+        <p class="review-text">"Los autobuses son de alta calidad y el viaje fue rápido y eficiente."</p>
+        <p class="review-author">- Laura Pérez <img class="review-avatar" src="imagenes/profile_pictures/avatar_2.jpg"
+            alt="Avatar de Juan Pérez"></p>
+      </div>
+
+      <div class="review-card">
+        <p class="review-text">"Excelente atención al cliente y la clase de primera categoría."</p>
+        <p class="review-author">- María González <img class="review-avatar"
+            src="imagenes/profile_pictures/avatar_3.jpg" alt="Avatar de María González"></p>
+      </div>
+
+      <div class="review-card">
+        <p class="review-text">"El servicio al cliente es excepcional. Resolvieron mis dudas al instante."</p>
+        <p class="review-author">- Carlos Ramírez <img class="review-avatar"
+            src="imagenes/profile_pictures/avatar_4.jpg" alt="Avatar de Carlos Ramírez"></p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- termina sección reseñas de clientes -->
+
+
+  <!-- inicia sección de newsletter -->
+
+  <section class="newsletter">
+
+    <div class="newsletter-content">
+
+      <h2>Únete a nuestra Newsletter</h2>
+      <p>Recibe nuestras últimas noticias y promociones.</p>
+
+
+
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Nombre">
+        <input type="email" name="email" placeholder="Email">
+        <button type="submit">Suscribirse</button>
+      </form>
+
+    </div>
+
+  </section>
+
+  <!-- finaliza sección de newsletter -->
+
+
+  <!-- inicia sección blog -->
+
+  <section class="blog-posts">
+
+    <h2>Últimas publicaciones</h2>
+
+    <div class="blog_cards">
+
+      <a href="10-tips-para-salir-de-viaje.html">
+      <div  class="blog-card">
+
+        <div class="img-blog-container" >
+          <img class="img-cover-blog-card" src="imagenes/fotos/blog_1.jpg" alt="Imagen de la entrada de blog">
+        </div>
+        
+        <div class="blog-card-content">
+          <h3><a href="10-tips-para-salir-de-viaje.html">10 tips para salir de viaje</a></h3>
+          <p>Por <span class="author">Autor</span> el <span class="date">01/02/2023</span></p>
+        </div>
+      </div></a>
+
+
+      <a href="mexico-desconocido.html">
+      <div  class="blog-card">
+
+        <div class="img-blog-container" >
+          <img class="img-cover-blog-card" src="imagenes/fotos/blog_2.jpg" alt="Imagen de la entrada de blog">
+        </div>
+        
+        <div class="blog-card-content">
+          <h3><a href="10-tips-para-salir-de-viaje.html">México desconocido</a></h3>
+          <p>Por <span class="author">Autor</span> el <span class="date">01/02/2023</span></p>
+        </div>
+      </div></a>
+
+
+      <a href="10-tips-para-salir-de-viaje.html">
+      <div  class="blog-card">
+
+        <div class="img-blog-container" >
+          <img class="img-cover-blog-card" src="imagenes/fotos/blog_3.jpg" alt="Imagen de la entrada de blog">
+        </div>
+        
+        <div class="blog-card-content">
+          <h3><a href="10-tips-para-salir-de-viaje.html">Como es viajar durante la pandemia</a></h3>
+          <p>Por <span class="author">Autor</span> el <span class="date">01/02/2023</span></p>
+        </div>
+      </div></a>
+
+
+      <a href="10-tips-para-salir-de-viaje.html">
+      <div  class="blog-card">
+
+        <div class="img-blog-container" >
+          <img class="img-cover-blog-card" src="imagenes/fotos/blog_4.jpg" alt="Imagen de la entrada de blog">
+        </div>
+        
+        <div class="blog-card-content">
+          <h3><a href="10-tips-para-salir-de-viaje.html">Escápate a estos lugares en estas vacaciones</a></h3>
+          <p>Por <span class="author">Autor</span> el <span class="date">01/02/2023</span></p>
+        </div>
+      </div></a>
+
+
+
+
+      <!-- <button type="submit">Ver todos</button> -->
+
+    </div>
+  </section>
+
+  <!-- finaliza sección blog -->
+
+
+  <!-- inicia FAQ -->
+
+  <section id="FAQ" class="faqs">
+
+
+
+    <div class="faq-container">
+
+
+
+      <div class="faq_container">
+
+        <h2>Preguntas frecuentes</h2>
+
+
+        <div class="faq">
+
+          <div class="question">
+            <h3>¿Cómo puedo reservar un boleto de autobús?</h3>
+            <img class="arrow-icon" src="imagenes/icons/navigation-arrow.svg" alt="flecha de navegación">
+          </div>
+
+          <div class="answer">
+            <p>Puedes reservar un boleto en línea a través de nuestro sitio web o en persona en cualquiera
+              de nuestras
+              taquillas.</p>
+          </div>
+
+        </div>
+
+        <div class="faq">
+
+          <div class="question">
+            <h3>¿Cuáles son los horarios de los autobuses?</h3>
+            <img class="arrow-icon" src="imagenes/icons/navigation-arrow.svg" alt="flecha de navegación">
+          </div>
+
+          <div class="answer">
+            <p>Los horarios de los autobuses varían según la ruta y el día de la semana. Por favor, consulte
+              nuestra página web para obtener información actualizada sobre los horarios.</p>
+          </div>
+
+        </div>
+
+        <div class="faq">
+
+          <div class="question">
+            <h3>¿Puedo comprar un boleto en línea?</h3>
+            <img class="arrow-icon" src="imagenes/icons/navigation-arrow.svg" alt="flecha de navegación">
+          </div>
+
+          <div class="answer">
+            <p>Sí, ofrecemos la opción de compra de boletos en línea en nuestra página web. Es fácil, rápido
+              y seguro.</p>
+          </div>
+
+        </div>
+
+        <div class="faq">
+
+          <div class="question">
+            <h3>¿Hay descuentos para estudiantes o personas mayores?</h3>
+            <img class="arrow-icon" src="imagenes/icons/navigation-arrow.svg" alt="flecha de navegación">
+          </div>
+
+          <div class="answer">
+            <p>Sí, ofrecemos descuentos para estudiantes y personas mayores. Por favor, consulte nuestra
+              página web para obtener más información sobre los descuentos disponibles.</p>
+          </div>
+
+        </div>
+
+        <!-- <button class="btn-faq"> <a href="faq.html" target="_blank"> </a>Ver todas </button> -->
+        <a  href="faq.html" target="_blank"><button class="btn-faq"> Ver más  </button></a>
+      </div>
+
+
+
+
+
+    </div>
+
+
+  </section>
+
+  <!-- finaliza FAQ -->
+
+
+  <!-- inicia sección de prensa -->
+
+  <section id="press" class="prensa">
+
+    <div class="prensa__contacto">
+
+      <h2>Contacto</h2>
+
+      <p><strong>Dirección:</strong> Jesús Carranza No. 108 Col. Centro Apizaco, Tlaxcala. México 90300</p>
+      <p><strong>Teléfono:</strong> 241 123 66 60</p>
+      <p><strong>Email:</strong> info@atah.com.mx</p>
+
+      <h2>Facturación</h2>
+
+      <p><strong>Teléfono de atención:</strong> 241 113 03 69 y 241 419 78 96</p>
+
+      <a href="billings.html" target="_blank"><button class="btn-billing"> Facturación  </button></a>
+      <br>
+      <br>
+
+    </div>
+
+    <div class="prensa__mapa">
+      
+      <h2>Cómo llegar</h2>
+      
+      <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.001333781943!2d-98.14530468460427!3d19.41234834635702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d02022e6bdf91b%3A0xf857cfe2a59a60eb!2sC.%20Jes%C3%BAs%20Carranza%20108%2C%20Centro%2C%2090300%20Apizaco%2C%20Tlax.!5e0!3m2!1ses-419!2smx!4v1678731403663!5m2!1ses-419!2smx"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+
+    </div>
+
+  </section>
+
+  <!-- finaliza sección de prensa -->
+
+
+
+
+  <!-- inicia footer -->
+
+  <footer>
+    <div class="footer_container">
+
+      <div class="footer-left">
+        <img src="imagenes/atah_logo.png" alt="Logo">
+        <p>Descripción de la empresa</p>
+        <div class="social-links">
+          <a src="imagenes/icons/icon_service_1.svg" href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-right">
+
+        <ul class="footer-menu">
+
+          <li>
+            <p><strong>Compañía</strong></p>
+            <ul>
+              <li><a href="#about-us">Sobre nosotros</a></li>
+              <li><a href="#services">Nuestros servicios</a></li>
+              <li><a href="#favs">Lugares favoritos</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <p><strong>Ayuda</strong></p>
+            <ul>
+                <li><a href="faq.html" target="_blank">FAQ</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#support">Soporte</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <p><strong>Más</strong></p>
+            <ul>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#press">Prensa</a></li>
+                <li><a href="#jobs">Trabajos</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <p><strong>Términos</strong></p>
+            <ul>
+                <li><a href="terms.html" target="_blank">Términos de servicio</a></li>
+                <li><a href="privacy.html" target="_blank">Política de privacidad</a></li>
+                <li><a href="cookies.html" target="_blank">Cookies</a></li>
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+
+
+    </div>
+
+    <p class="copy">&copy; 2023 Autotransportes Tlaxcala Apizaco Huamantla, S.A. DE C.V. Todos los derechos reservados.
+    </p>
+
+  </footer>
+
+  <!-- finaliza footer -->
+
+  <script src="main.js"></script>
+
+
+</body>
+
+</html>
